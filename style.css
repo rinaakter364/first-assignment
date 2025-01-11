@@ -7,6 +7,9 @@
     font-family: "Fira Sans", serif;
    
 }
+body{
+    background-color: #F5F5F5;
+}
 /* header section area css  */
 .header{
     width: 1150px;
@@ -30,7 +33,7 @@ nav .btn{
     font-weight: 500;
     border: solid 1px #006A50;
     border-radius: 8px;
-    background: #fff;
+    background-color: #F5F5F5;
 }
 
 /* banner section area css  */
@@ -75,5 +78,127 @@ main{
     height: 400px;
 }
 
+/* second area css  */
+.second-area{
+    margin-top: 70px;
+}
+.second-area h2{
+    margin-bottom: 25px;
+    font-weight: bold;
+    font-size: 30px;
+    color: #0E0E0E;
+}
+.second-box p{
+line-height: 20px;
+color: #393A3A;
+font-size: 14px;
+}
+.second-box h4{
+    margin: 10px 0;
+}
+.second-box{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+.single-second-box{
+    width: 268px;
+    height: 220px;
+    padding: 24px;
+    background-color: #FFFFFF;
+    border: solid 1px #CACACA; 
+    border-radius: 15px;
 
+}
+/* third area css  */
+.third-area{
+    margin-top: 80px;
+}
+.third-area .title{
+    margin-bottom: 25px;
+    font-weight: bold;
+    font-size: 30px;
+    color: #0E0E0E;
+}
+.third-area .desct{
+    line-height: 22px;
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 15px;
+}
+.third-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.third-single-box{
+    width: 370px;
+    height: 250px;
+    padding: 30px;
+    margin: 30px 0;
+    background-color: rgba(84, 144, 245, 0.2);
+    border-radius: 15px;
+}
+.third-single-box p{
+    line-height: 20px;
+    color: #393A3A;
+    font-size: 12px;
+}
+
+.third-single-box h4{
+    margin: 10px 0;
+}
+.third-single-box .btn-one{
+    background-color: #5490F5;
+    color: #FFFFFF;
+    padding: 10px 18px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    margin-top: 15px;
+}
+.third-single-box .btn-one{
+    background-color: #5490F5;
+    color: #FFFFFF;
+    padding: 10px 18px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    margin-top: 15px;
+}
+.third-single-box .btn-one{
+    background-color: #5490F5;
+    color: #FFFFFF;
+    padding: 10px 18px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    margin-top: 15px;
+}
+.third-single-box:nth-child(2){
+    background-color: #C6E4D6;
+    
+}
+.third-single-box:nth-child(3){
+    background-color: #F7EBCF;
+}
+.third-single-box .btn-two{
+    background-color: #09A15C;
+    color: #FFFFFF;
+    padding: 10px 18px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    margin-top: 15px;
+}
+.third-single-box .btn-three{
+    background-color: #FFC239;
+    color: #FFFFFF;
+    padding: 10px 18px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    margin-top: 15px;
+}
 
